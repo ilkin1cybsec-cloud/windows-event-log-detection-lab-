@@ -1,0 +1,24 @@
+title: Windows Failed Logon
+id: win-failedlogon-001
+status: experimental
+description: Detects failed Windows logon events for authentication anomaly review.
+author: SOC Portfolio Lab
+logsource:
+  product: windows
+  service: security
+detection:
+  event_id: 4625
+fields:
+  - timestamp
+  - hostname
+  - username
+  - source_ip
+falsepositives:
+  - Mistyped password
+  - Expired password
+  - Service account password mismatch
+level: medium
+mitre:
+  tactic: Credential Access
+  technique_id: T1110
+  technique: Brute Force

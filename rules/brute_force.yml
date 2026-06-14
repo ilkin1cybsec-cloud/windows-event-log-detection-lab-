@@ -1,0 +1,29 @@
+title: Possible Brute Force Followed By Successful Logon
+id: win-bruteforce-001
+status: experimental
+description: Detects multiple failed logons from the same source IP and username followed by a successful logon.
+author: SOC Portfolio Lab
+logsource:
+  product: windows
+  service: security
+detection:
+  failed_event_id: 4625
+  success_event_id: 4624
+  threshold: 5
+  timeframe_minutes: 10
+  group_by:
+    - username
+    - source_ip
+fields:
+  - timestamp
+  - hostname
+  - username
+  - source_ip
+falsepositives:
+  - User forgot password
+  - Password manager using old credentials
+level: high
+mitre:
+  tactic: Credential Access
+  technique_id: T1110
+  technique: Brute Force

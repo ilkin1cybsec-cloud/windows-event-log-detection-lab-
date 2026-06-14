@@ -1,0 +1,30 @@
+title: Privileged Group Membership Change
+id: win-privilege-001
+status: experimental
+description: Detects users added to privileged Windows groups such as Administrators or Domain Admins.
+author: SOC Portfolio Lab
+logsource:
+  product: windows
+  service: security
+detection:
+  event_ids:
+    - 4728
+    - 4732
+  privileged_groups:
+    - Administrators
+    - Domain Admins
+    - Enterprise Admins
+fields:
+  - timestamp
+  - hostname
+  - username
+  - target_user
+  - group_name
+falsepositives:
+  - Approved access change
+  - New administrator onboarding
+level: critical
+mitre:
+  tactic: Persistence
+  technique_id: T1098
+  technique: Account Manipulation
